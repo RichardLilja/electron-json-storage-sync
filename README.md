@@ -1,0 +1,1 @@
+# electron-json-storage-sync
