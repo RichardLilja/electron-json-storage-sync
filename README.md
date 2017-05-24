@@ -2,7 +2,7 @@
 
 > Synchronously write and read user settings in Electron apps
 
-This is a synchronous version of [electron-json-storage](https://github.com/jviotti/electron-json-storage). Credit to [jviotti](https://github.com/jviotti) for writing the original async version.
+This is a synchronous version of [electron-json-storage](https://github.com/jviotti/electron-json-storage). Credits to [jviotti](https://github.com/jviotti) for writing the original async version.
 
 Installation
 ------------
@@ -17,3 +17,8 @@ You can require this module from either the **main** or **renderer** process (wi
 
 Documentation
 -------------
+
+### Storage module
+```javascript
+const storage = require('electron-json-storage-sync');
+```
