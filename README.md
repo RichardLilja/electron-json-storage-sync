@@ -22,3 +22,12 @@ Documentation
 ```javascript
 const storage = require('electron-json-storage-sync');
 ```
+
+### .get(key)
+```javascript
+const result = storage.get('foo');
+if (result.status) {
+  // do something with result.data
+} else {
+  // handle result.error
+}
