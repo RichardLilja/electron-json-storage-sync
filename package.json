@@ -1,0 +1,29 @@
+{
+  "name": "electron-json-storage-sync",
+  "version": "1.0.0",
+  "description": "Read and write data to JSON-files in userData directory synchronously.",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron-mocha --recursive tests -R spec && electron-mocha --renderer --recursive tests -R spec"
+  },
+  "repository": "git+https://github.com/RichardLilja/electron-json-storage-sync.git",
+  "keywords": [
+    "electron",
+    "storage"
+  ],
+  "author": "Richard Lilja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLilja/electron-json-storage-sync/issues"
+  },
+  "homepage": "https://github.com/RichardLilja/electron-json-storage-sync#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1"
+  },
+  "devDependencies": {
+    "electron-mocha": "^3.4.0",
+    "electron-prebuilt": "^1.4.13",
+    "mochainon": "^1.0.0"
+  }
+}
