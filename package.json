@@ -2,7 +2,7 @@
   "name": "electron-json-storage-sync",
   "version": "1.0.0",
   "description": "Read and write data to JSON-files in userData directory synchronously.",
-  "main": "index.js",
+  "main": "lib/storage.js",
   "scripts": {
     "test": "electron-mocha --recursive tests -R spec && electron-mocha --renderer --recursive tests -R spec"
   },
