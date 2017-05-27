@@ -2,7 +2,7 @@
 
 > Synchronously write and read user settings in Electron apps
 
-This is a synchronous version of [electron-json-storage](https://github.com/jviotti/electron-json-storage). Credits to [jviotti](https://github.com/jviotti) for writing the original async version. Version 1.0.0 only implements methods .set, .get and .clear.
+This is a synchronous version of [electron-json-storage](https://github.com/jviotti/electron-json-storage). Credits to [jviotti](https://github.com/jviotti) for writing the original async version. Version 1.1.0 implements methods get, set, has, keys, remove and clear.
 
 Installation
 ------------
