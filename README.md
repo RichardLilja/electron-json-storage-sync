@@ -43,6 +43,38 @@ if (result.status) {
 }
 ```
 
+### .has()
+```javascript
+const result = storage.has('foo');
+if (result.status && result.data) {
+  // key in storage
+} else if (result.status && !result.data){
+  // key not in storage
+} else {
+  // handle result.error
+}
+```
+
+### .keys()
+```javascript
+const result = storage.keys();
+if (result.status) {
+  // do something with array result.data
+} else {
+  // handle result.error
+}
+```
+
+### .remove(key)
+```javascript
+const result = storage.remove();
+if (result.status) {
+  // the storage record has been removed
+} else {
+  // handle result.error
+}
+```
+
 ### .clear()
 ```javascript
 const result = storage.clear();
